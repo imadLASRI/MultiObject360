@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(77, 76, 76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.object360 img{
+    max-width: 40%;
+    display: none;
+    cursor: pointer;
+}
+
+.object360 img.visible{
+    padding: 3%;
+    display: block;
+    float: left;
+    background-color: rgb(75, 75, 75);
+}
+.object360{
+    width: 100%;
+    display: contents;
+}
+.objects{
+        width: 80%;
+    display: flex;
+    justify-content: center;
+}
